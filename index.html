@@ -35,6 +35,12 @@
   <div class="main hidden">
 
     <section class="home-section align-items-center" id="home">
+      <script>
+        VanillaTilt.init(document.querySelector(".container"), {
+          max: 25,
+          speed: 400
+        });
+      </script>
       <div class="container">
         <div class="row align-items-center">
           <div class="home-text">
@@ -54,18 +60,10 @@
         </div>
       </div>
     </section>
-    <script>
-  VanillaTilt.init(document.querySelector(".container"), {
-    max: 15,
-    speed: 5000,
-    glare: true,
-    "max-glare": 0.2
-  });
-</script>
 
   </div>
   
-  <script src="https://raw.githubusercontent.com/Polar-69/Calculator/main/chicken.js"></script>
+  <script src="https://raw.githubusercontent.com/micku7zu/vanilla-tilt.js/master/dist/vanilla-tilt.min.js"></script>
   <script src="js/script.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
